@@ -26,7 +26,9 @@ insert into STUDENT values (34,'sunil','male',96,1,'Abdvev','COmmerce','2009-06-
 
 insert into STUDENT values (35,'sun','male',96,1,'Abdvev','COmmerce','2009-06-05',null);
 
-select * from test1.STUDENT;
+select *from STUDENT WHERE  STREAM IN ('COMMERCE');
+
+
 select distinct StdName ,dob from STUDENT;
 select *from STUDENT where percentage >=80 ;
 select  StdName,Stream,percentage from STUDENT where  percentage>=80;
