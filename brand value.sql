@@ -49,7 +49,7 @@ alter table heat2 modify column minTem int not null;
 
 drop table heat2
 
- insert into heat2 values(1,12,'low');
+insert into heat2 values(1,12,'low');
 insert into heat values(1,12,'low');
 insert into heat values(1,13,'high');
 insert into heat2 value(null,13,'low');

@@ -84,6 +84,6 @@ select avg(cost) from  customerRecord where receivedDate  between "2022-2-1" and
 select max(mechanicName) from customerRecord;
 select min(cost),max(cost) from customerRecord;
 
-select avg(cost) from customerrecord;
+select avg(cost) from customerrecord;ipl
 select * from customerrecord;
 
